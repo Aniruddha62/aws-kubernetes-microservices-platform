@@ -1,5 +1,4 @@
 # AWS + Kubernetes Deployment Setup (2025)
-
 This project is a production-style deployment setup of a 5-service Spring Boot microservices system with a React frontend.
 
 The main goal was to understand how real-world applications are containerized, deployed, monitored, and automated on AWS using Kubernetes and DevOps tools.
