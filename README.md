@@ -5,8 +5,6 @@ The main goal was to understand how real-world applications are containerized, d
 
 Instead of just running apps locally, this project focuses on infrastructure, automation, monitoring, and scalability.
 
----
-
 ## 🚀 Tech Stack
 
 - Spring Boot (Microservices)
@@ -19,8 +17,6 @@ Instead of just running apps locally, this project focuses on infrastructure, au
 - Prometheus
 - Grafana
 
----
-
 ## 🏗 What This Project Includes
 
 - 5 Spring Boot microservices
@@ -32,8 +28,6 @@ Instead of just running apps locally, this project focuses on infrastructure, au
 - Grafana dashboards
 - Terraform configuration for AWS infrastructure
 
----
-
 ## ⚙️ Key Highlights
 
 - Each microservice can be deployed or scaled independently.
@@ -42,8 +36,6 @@ Instead of just running apps locally, this project focuses on infrastructure, au
 - Manual deployment steps reduced by around 70%.
 - Monitoring setup tracks 10+ infrastructure and application-level metrics.
 - Entire AWS infrastructure can be rebuilt from scratch using Terraform.
-
----
 
 ## 📁 Project Structure
 
@@ -65,25 +57,20 @@ AWS EC2 / EKS infrastructure setup
 /.github/workflows  
 CI/CD pipeline configuration  
 
----
-
 ## 🔄 CI/CD Pipeline Flow
 
 1. Code push to GitHub  
 2. Run tests  
 3. Build Docker images  
 4. Push images to AWS ECR  
-5. Deploy to EC2 / Kubernetes automatically  
+5. Deploy to EC2 / Kubernetes automatically
 
----
-
+   
 ## 📊 Monitoring
 
 - Prometheus scrapes metrics from all services.
 - Grafana dashboards visualize CPU, memory, and service metrics.
 - Health checks ensure services restart automatically if needed.
-
----
 
 ## 🌱 What I Learned
 
@@ -93,8 +80,6 @@ CI/CD pipeline configuration
 - CI/CD automation with GitHub Actions
 - Monitoring production-grade systems
 - Docker multi-service setup
-
----
 
 ## 👨‍💻 Author
 
